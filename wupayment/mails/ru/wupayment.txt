@@ -1,0 +1,48 @@
+Hi {firstname} {lastname},
+
+YOUR ORDER #{id_order} FOR PAYMENT VIA WESTERN UNION
+
+Your order has been placed successfully, and will be shipped as soon as payment is received.
+
+SELECT THE USD AS THE CURRENCY WHEN TRANSFERRING!
+
+
+INSTRUCTION FOR ALL USERS:
+
+First Name: {wupayment_owner}
+
+Last Name: {wupayment_details}
+
+Country: {wupayment_address}
+
+Order total amount is {total_paid}
+
+
+Quick Guide:
+
+Visit a local Western Union agency and send the funds in person.
+Fill out the necessary "Send Money" form. If you need assistance to ask the agent.
+Fill the "Receiver" section with the information shown in the picture from the left: receiver's name and country.
+Select the transfer option "money in minutes/10 minutes". If you've selected 48 hours (delayed) service, wait 48 hours before submitting your payment details on our website.
+You can pay with cash, a bank debit card, or credit card. At the WU office report that you are sending money to friends or relatives.
+Western Union will charge you a money transfer fee, depending on the amount of money you send.
+(IMPORTANT NOTE: Western Union is not supposed to be used for business or goods payments from the internet if they realize that this is for a business they will stop the transaction. Do not protect payment with a secret question or secret answer!).
+Once payment has been sent, press make payment button and fill the following payment information:
+- Sender's first name, last name (your first name and last name).
+- Address (your address).
+- Country (from where you send money).
+- Money Transfer Control Number (MTCN).
+- The exact amount and currency wired (without Western Union fee).
+- Comment.
+Do not forget to tell us the Control Number through your personal account, Contact page, Email, or Telegram. Please note that the Telegram via TOR does not work.
+Use instructions there https://www.big-up.shop/stati/how-to-send-us-money-transfer-control-number-mtcn.html.
+
+
+You can review this order and download your invoice from the "Order history" ({shop_url}history.php) section of your account by clicking "My account" ({shop_url}my-account.php) on our Website.
+
+Thank you for shopping at {shop_name}.
+
+{shop_name} - {shop_url}
+
+
+{shop_url}

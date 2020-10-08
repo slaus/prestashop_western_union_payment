@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/1999/REC-html401-19991224/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Message from {shop_name}</title>
+</head>
+<body>
+	<table style="font-family:Verdana,sans-serif; font-size:12px; color:#374953; width: 550px;">
+		<tr>
+			<td align="left">
+				<a href="{shop_url}" title="{shop_name}"><img alt="{shop_name}" src="{shop_logo}" style="border:none;" ></a>
+			</td>
+		</tr>
+		<tr><td>&nbsp;</td></tr>
+		<tr>
+			<td align="left" style="font-size: 16px; padding: 0.5em 0;">Hi, <strong style="color:#c2a50b;">{firstname} {lastname}</strong>,</td>
+		</tr>
+		<tr><td>&nbsp;</td></tr>
+		<tr>
+			<td align="left" style="background-color:#c2a50b; color:#FFF; font-size: 12px; font-weight:bold; padding: 0.5em 1em;">YOUR ORDER #{id_order} FOR PAYMENT VIA WESTERN UNION</td>
+		</tr>
+		<tr>
+			<td align="left">
+				<b>Your order has been placed successfully, and will be shipped as soon as payment is received.</b>
+			</td>
+		</tr>
+		<tr>
+			<td align="left" style="color:#c2a50b; font-size: 12px; font-weight:bold; padding: 0.5em 0;">SELECT THE USD AS THE CURRENCY WHEN TRANSFERRING THROUGH THE WESTERN UNION SYSTEM!</td>
+		</tr>
+		
+		<tr><td>&nbsp;</td></tr>
+		<tr>
+			<td align="left">
+				<b>INSTRUCTION FOR ALL USERS:</b>
+				<br />
+				First Name:<b>{wupayment_owner}</b>
+				<br />
+				Last Name: <b>{wupayment_details}</b>
+				<br />
+				Country: <b>{wupayment_address}</b>
+				<br />
+				Order total amount is <b>{total_paid}</b>
+			</td>
+		</tr>
+		<tr><td>&nbsp;</td></tr>
+		<tr>
+			<td align="left" style="color:#c2a50b; font-size: 12px; font-weight:bold; padding: 0.5em 0;">Quick Guide:</td>
+		</tr>
+		<tr><td>&nbsp;</td></tr>
+		<tr>
+			<td>
+				<ol>
+					<li>Visit a local Western Union agency and send the funds in person.</li>
+					<li>Fill out the necessary "Send Money" form. If you need assistance to ask the agent.</li>
+					<li>Fill the "Receiver" section with the information shown in the picture from the left: receiver's name and country.</li>
+					<li>Select the transfer option "money in minutes/10 minutes". If you've selected 48 hours (delayed) service, wait 48 hours before submitting your payment details on our website.</li>
+					<li>You can pay with cash, a bank debit card, or credit card. At the WU office report that you are sending money to friends or relatives.</li>
+					<li>Western Union will charge you a money transfer fee, depending on the amount of money you send.<br> 
+					<b>(IMPORTANT NOTE: Western Union is not supposed to be used for business or goods payments from the internet if they realize that this is for a business they will stop the transaction. Do not protect payment with a secret question or secret answer!).</b></li>
+					<li>Once payment has been sent, press make payment button and fill the following payment information:<br>
+						- Sender's first name, last name (your first name and last name).<br> 
+						- Address (your address).<br> 
+						- Country (from where you send money).<br> 
+						- Money Transfer Control Number (MTCN).<br> 
+						- The exact amount and currency wired (without Western Union fee).<br> 
+						- Comment.</li>
+					<li><b>Do not forget to tell us the Control Number through your personal account, Contact page, Email, or Telegram. Please note that the Telegram via TOR does not work.</b></li>
+					<li>Use instructions <a href="https://www.big-up.shop/stati/how-to-send-us-money-transfer-control-number-mtcn.html" target="_blank" style="color:#c2a50b; text-decoration:none;">there</a>.</li>
+				</ol>
+			</td>
+		</tr>
+		<tr><td>&nbsp;</td></tr>
+		<tr>
+			<td align="left" style="color:#c2a50b; font-size: 12px; font-weight:bold; padding: 0.5em 0;">ATTENTION ONLY FOR UNREGISTERED USERS!</td>
+		</tr>
+		<tr><td>&nbsp;</td></tr>
+		<tr>
+			<td align="left">After payment, tell us the number only through the form on the <a href="https://www.big-up.shop/feedback.html" target="_blank" style="color:#c2a50b; text-decoration:none;">Contact page</a> or through an anonymous <a href="https://t.me/bigupshop" target="_blank" style="color:#c2a50b; text-decoration:none;">chat in Telegram</a>. <b>Please note that the Telegram via TOR does not work.</b></td>
+		</tr>
+		<tr><td>&nbsp;</td></tr>
+		<tr>
+			<td align="left">
+				You can review this order and download your invoice from the <a href="{shop_url}history.php" style="color:#c2a50b; font-weight:bold; text-decoration:none;" target="_blank">"Order history"</a> section of your account by clicking <a href="{shop_url}my-account.php" style="color:#c2a50b; font-weight:bold; text-decoration:none;" target="_blank">"My account"</a> on our Website.
+			</td>
+		</tr>
+		<tr><td>&nbsp;</td></tr>
+		<tr>
+			<td align="center" style="font-size:10px; border-top: 1px solid #c2a50b;">
+				<a href="{shop_url}" style="color:#c2a50b; font-weight:bold; text-decoration:none;" target="_blank">{shop_name}</a>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
